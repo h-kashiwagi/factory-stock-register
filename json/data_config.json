@@ -1,0 +1,152 @@
+
+{   
+    "____comment" : "トライテック、GPCASSは未定義 (2023/11/28時点)",
+    "61" : {
+            "maker_name" : "trytec",
+            "DLL_path" : "",
+            "proc_list" : [],
+            "vibration": {
+                "regist_items": [],
+                "payload1" : "",
+                "rename_items":
+                {
+                    "" : ""
+                }
+            },
+            "current": {
+                "regist_items" : "[]",
+                "payload1" : "",
+                "rename_items" : {
+                    "" : ""
+                }
+            }
+        },
+    "71": {
+            "maker_name" : "intec",
+            "DLL_path" : "./DLL/CmsLibIntec",
+            "proc_list" : ["vibration","current"],
+            "vibration": {
+                "regist_items": ["communication_error","end_device_name","gw_id","maker_id","model_id","payload1","payload2","payload3","payload4","payload5","payload6","payload7","payload8","payload9","payload10","payload11","payload12","payload13"],
+                "payload1" : "DiagType",
+                "rename_items":
+                {
+                    "VibLoAve" : "payload2",
+                    "VibLoPeak" : "payload3",
+                    "VibLoPA" : "payload4",
+                    "VibMdAve" : "payload5",
+                    "VibMdPeak" : "payload6",
+                    "VibMdPA" : "payload7",
+                    "VibHiAve" : "payload8",
+                    "VibHiPeak" : "payload9",    
+                    "VibHiPA" : "payload10",
+                    "AnalogAve" : "payload11",
+                    "AnalogMax" : "payload12",
+                    "AnalogMin" : "payload13"
+                }
+            },
+            "current": {
+                "regist_items" : ["communication_error","end_device_name","gw_id","maker_id","model_id","payload1","payload2","payload3","payload4","payload5","payload6","payload7","payload8","payload9","payload10","payload11","payload12","payload13","payload14","payload15","payload16","payload17","payload18","payload19","payload20","payload21","payload22","payload23","payload24","payload25","payload26","payload27","payload28","payload29","payload30","payload31","payload32","payload33","payload34","payload35","payload36","payload37","payload38","payload39","payload40","payload41","payload42","payload43","payload44","payload45","payload46","payload47","payload48","payload49","payload50","payload51","payload52","payload53","payload54","payload55","payload56","payload57","payload58","payload59","payload60","payload61","payload62","payload63","payload64","payload65","payload66","payload67","payload68","payload69","payload70","payload71","payload72","payload73","payload74","payload75","payload76","payload77","payload78","payload79","payload80","payload81"],
+                "payload1" : "DiagType",
+                "rename_items" :
+                {
+                    "Param1_Index" : "payload2",
+                    "Param1_Name" : "payload3",
+                    "Param1_DataInvalidFlag" : "payload4",
+                    "Param1_ParameterValue" : "payload5",
+                    "Param2_Index" : "payload6",
+                    "Param2_Name" : "payload7",
+                    "Param2_DataInvalidFlag" : "payload8",
+                    "Param2_ParameterValue" : "payload9",    
+                    "Param3_Index" : "payload10",
+                    "Param3_Name" : "payload11",
+                    "Param3_DataInvalidFlag" : "payload12",
+                    "Param3_ParameterValue" : "payload13",
+                    "Param4_Index" : "payload14",
+                    "Param4_Name" : "payload15",
+                    "Param4_DataInvalidFlag" : "payload16",
+                    "Param4_ParameterValue" : "payload17",
+                    "Param5_Index" : "payload18",
+                    "Param5_Name" : "payload19",
+                    "Param5_DataInvalidFlag" : "payload20",
+                    "Param5_ParameterValue" : "payload21",    
+                    "Param6_Index" : "payload22",
+                    "Param6_Name" : "payload23",
+                    "Param6_DataInvalidFlag" : "payload24",
+                    "Param6_ParameterValue" : "payload25",
+                    "Param7_Index" : "payload26",
+                    "Param7_Name" : "payload27",
+                    "Param7_DataInvalidFlag" : "payload28",
+                    "Param7_ParameterValue" : "payload29",
+                    "Param8_Index" : "payload30",
+                    "Param8_Name" : "payload31",
+                    "Param8_DataInvalidFlag" : "payload32",
+                    "Param8_ParameterValue" : "payload33",    
+                    "Param9_Index" : "payload34",
+                    "Param9_Name" : "payload35",
+                    "Param9_DataInvalidFlag" : "payload36",
+                    "Param9_ParameterValue" : "payload37",
+                    "Param10_Index" : "payload38",
+                    "Param10_Name" : "payload39",
+                    "Param10_DataInvalidFlag" : "payload40",
+                    "Param10_ParameterValue" : "payload41",
+                    "Param11_Index" : "payload42",
+                    "Param11_Name" : "payload43",
+                    "Param11_DataInvalidFlag" : "payload44",
+                    "Param11_ParameterValue" : "payload45",    
+                    "Param12_Index" : "payload46",
+                    "Param12_Name" : "payload47",
+                    "Param12_DataInvalidFlag" : "payload48",
+                    "Param12_ParameterValue" : "payload49",
+                    "Param13_Index" : "payload50",
+                    "Param13_Name" : "payload51",
+                    "Param13_DataInvalidFlag" : "payload52",
+                    "Param13_ParameterValue" : "payload53",
+                    "Param14_Index" : "payload54",
+                    "Param14_Name" : "payload55",
+                    "Param14_DataInvalidFlag" : "payload56",
+                    "Param14_ParameterValue" : "payload57",    
+                    "Param15_Index" : "payload58",
+                    "Param15_Name" : "payload59",
+                    "Param15_DataInvalidFlag" : "payload60",
+                    "Param15_ParameterValue" : "payload61",
+                    "Param16_Index" : "payload62",
+                    "Param16_Name" : "payload63",
+                    "Param16_DataInvalidFlag" : "payload64",
+                    "Param16_ParameterValue" : "payload65",
+                    "Param17_Index" : "payload66",
+                    "Param17_Name" : "payload67",
+                    "Param17_DataInvalidFlag" : "payload68",
+                    "Param17_ParameterValue" : "payload69",    
+                    "Param18_Index" : "payload70",
+                    "Param18_Name" : "payload71",
+                    "Param18_DataInvalidFlag" : "payload72",
+                    "Param18_ParameterValue" : "payload73",
+                    "Param19_Index" : "payload74",
+                    "Param19_Name" : "payload75",
+                    "Param19_DataInvalidFlag" : "payload76",
+                    "Param19_ParameterValue" : "payload77",
+                    "Param20_Index" : "payload78",
+                    "Param20_Name" : "payload79",
+                    "Param20_DataInvalidFlag" : "payload80",
+                    "Param20_ParameterValue" : "payload81"
+                }
+            }
+        },
+    "81" : {
+            "maker_name" : "gpcass",
+            "DLL_path" : "",
+            "proc_list" : [],
+            "current" : {
+                "regist_items" : [],
+                "rename_items" : {
+                    "" : ""
+                }
+            },           
+            "temperature": {
+                "regist_items" : [],
+                "rename_items" : {
+                    "" : ""
+                }
+            }            
+        }
+}
